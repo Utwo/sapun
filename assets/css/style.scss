@@ -95,15 +95,15 @@ body {
 
 @keyframes bubble {
   0% {
-    transform: translate(0, -4em) scale(.4);
+    transform: translate3d(0, -4em, 0) scale(.4);
     opacity: .5;
   }
   97% {
-    transform: translate(0, -28em) scale(1);
+    transform: translate3d(0, -28em, 0) scale(1);
     opacity: .3;
   }
   100% {
-    transform: translate(0, -27em) scale(2);
+    transform: translate3d(0, -27em, 0) scale(2);
     opacity: 0;
   }
 }
