@@ -6,10 +6,10 @@
   "display": "standalone",
   "Scope": "/",
   "start_url": "index.html",
-  "description": "Th most addictive soap game.",
+  "description": "The most addictive soap game.",
   "web_accessible_resources": [
     "js/*.js",
-    "style.css",
+    "css/style.min.css",
     "img/soap.svg",
     "favicon.ico",
     "index.html",
